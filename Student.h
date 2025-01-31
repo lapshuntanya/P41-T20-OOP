@@ -2,7 +2,7 @@
 #include <iostream>
 #include <cstring>
 using namespace std;
-#define DEBUG
+//#define DEBUG
 
 class Student
 {
@@ -35,5 +35,13 @@ public:
 #endif // DEBUG
 		delete[] name;
 	}
+
+
+	void showInfo();
+	//---------------АКСЕСОРИ----------------------
+	void setName(const char* new_name);
+	void setMark(int new_mark);
+	const char* getName();
+	int getMark();
 };
 

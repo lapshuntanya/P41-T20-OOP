@@ -6,4 +6,8 @@ int main()
     Student Vlad2("Vlad", 11);
 
 
-}//
+    Vlad.showInfo();
+    Vlad2.showInfo();
+
+    float av = Vlad.
+}
